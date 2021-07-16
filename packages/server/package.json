@@ -14,9 +14,14 @@
     "lib"
   ],
   "scripts": {
+    "start": "nodemon lib/server.js",
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
+    "@koa/router": "^10.0.0",
     "koa2": "^2.0.0-alpha.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
   }
 }
